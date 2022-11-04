@@ -1,0 +1,3 @@
+-> DockerFile is the file used for image creation .
+-> After clone the project run the command :  docker build -t cypress-test-image:1.0.0 .    // this will create a local image into your docker with the name cypress-test-image 
+-> once the build successfullt done , run the command  docker run -i -v ${PWD}:/my-cypress-project -t cypress-test-image:1.0.0 to run the test cases on docker 
